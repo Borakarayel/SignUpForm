@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden; 
+}
+
+#left-side {
+    width: 40%;
+    
+ }
+
+#left-side img{
+   width: 100%;
+}
+
+#left-side a {
+    color: brown;
+}
+
+.background{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 10%;
+    align-items: center;
+    gap:2%; 
+    color: white;
+    font-size: 40px;
+}
+.background img{
+    max-width: 100px;
+    padding: 2%;
+    
+}
+
+.front {z-index: 1;
+    width: 10%;
+}
+
+#creator{width: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 00%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 10%;
+    align-items: center;
+    gap:2%; 
+    color: white;
+    font-size: 12px;
+   
+}
+
+#right-side { width: 60%;
+    padding: 0rem 5rem;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    z-index: 7;
+}
+
+#id1 {
+    padding: 2rem 3rem 5rem 0rem;
+    font-size: larger;
+    font-weight: 700;
+}
+
+
+#id2 { padding: 2px;
+    font-size: larger;
+    font-weight: 700;
+    
+    background-color: #aa906988;
+    box-shadow: 0px 2px 2px lightgrey;
+    
+}
+
+#id3 {
+    padding: 2rem 3rem 5rem 0rem;
+}
+
+
+li {list-style: none;
+    display:inline-flex;
+    justify-content:center;
+    gap: 20%;
+    margin: 10px 70px;
+    text-align: initial;
+    
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+button {
+        border-radius: 5%;
+        background-color: #596D48;
+        padding: 1rem 2rem;
+       
+    
+        font-size: small;
+        text-align: center;
+        color: white;
+    }
+
+  
+
+    input:focus {
+
+        box-shadow: 0px 5px 5px lightgrey;
+        border: 3px solid lightblue;
+
+    } 
+    
+

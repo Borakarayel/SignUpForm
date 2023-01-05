@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left-side">
+
+       <img src="/images/leaf.png" alt="green-leafs">
+
+       <div class="background">
+            <img class="front" src="/images/odin.png" alt="odin-head">
+            <p>ODIN</p>
+
+          
+       </div>
+       <p id="creator">Photo by
+        <a
+          href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Halie West</a
+        >
+        on
+        <a
+          href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        ></p>
+    </div>
+
+
+
+
+    <div id="right-side">
+        <div id="id1"> <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+            <br> <br>
+        You know you want to.
+        </p>
+        </div>
+
+        <div id="id2">Lets do this! <br>* Required fields
+            <form action="http://httpbin.org/post" method="post">
+               <li> <label for="name">Name*
+                    <br>
+                    <input type="text" id="name" required minlength="2" maxlength="10" placeholder="Bora">
+                </label>
+                <label for="surname">Surname*
+                    <br>
+                    <input type="text" id="surname"required minlength="2" maxlength="10" placeholder="Karayel">
+                </label></li> 
+
+                <li> <label for="mail">Email*
+                    <br>
+                    <input type="email" id="mail" required minlength="2" maxlength="30" placeholder="bora@info.com">
+                </label>
+                <label for="tello">Phone Number*
+                    <br>
+                    <input type="tel" id="tello" required minlength="2" maxlength="15" placeholder="+90123456789">
+                </label></li> 
+
+                <li> <label for="pass1" >Password*
+                    <br>
+                    <input id="pass1" type="password" required minlength="6" maxlength="6" value="" placeholder="6 digits">
+                </label>
+                <label for="pass2">Confirm Password*
+                    <br>
+                    <input id="pass2" type="password" required minlength="6" maxlength="6" value="" placeholder="Repeat password">
+                </label></li> 
+        </div>
+
+        <div id="id3">
+            <button type="submit">Create Account</button><br><br>
+            Already have an account? <a href="">Log in</a>
+        </div>
+    </form>
+    </div>
+<script src="jscript.js"></script>
+</body>
+</html>
